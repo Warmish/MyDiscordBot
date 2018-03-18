@@ -13,5 +13,11 @@ namespace MyBotNetCore.Modules
         {
             await ReplyAsync("Hello in ❤ Warmiland ❤");
         }
+
+        [Command("goodbye")]
+        public async Task SayGoodbyeAsync()
+        {
+            await ReplyAsync("Goodnight ❤ ");
+        }
     }
 }
